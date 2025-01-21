@@ -23,7 +23,7 @@ int main()
 
 		for (int i = 0; i < loop; ++i)
 		{
-			// ¿©´Â °ýÈ£
+			// ¿©´Â °ýÈ£ 
 			if ('(' == str[i])
 			{
 				S.push(0);
