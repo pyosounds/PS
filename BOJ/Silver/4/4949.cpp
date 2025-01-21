@@ -23,7 +23,6 @@ int main()
 
 		for (int i = 0; i < loop; ++i)
 		{
-			// ¿©´Â °ýÈ£ 
 			if ('(' == str[i])
 			{
 				S.push(0);
@@ -32,8 +31,6 @@ int main()
 			{
 				S.push(1);
 			}
-
-			// ´Ý´Â °ýÈ£
 			else if (')' == str[i])
 			{
 				if (!S.size() || 0 != S.top())
