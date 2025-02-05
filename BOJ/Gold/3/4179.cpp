@@ -84,7 +84,6 @@ int main()
             if (-1 == J[nx][ny] || J[nx][ny] > 0)
                 continue;
 
-            // 불이 없는 경우도 고려
             if (F[nx][ny])
             {
                 if (J[cur.X][cur.Y] + 1 >= F[nx][ny])
